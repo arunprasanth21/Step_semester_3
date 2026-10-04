@@ -37,3 +37,9 @@ public class MostPopularCanteenOrder {
         System.out.println("(\"" + result[0] + "\", " + result[1] + ")");
     }
 }
+
+/* Complexity:
+- HashMap counting: O(n) average time
+- Second pass: O(n)
+- Total: O(n) average time
+- Additional space: O(u), where u is the number of unique items */

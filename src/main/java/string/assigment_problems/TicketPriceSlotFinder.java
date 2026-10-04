@@ -24,3 +24,8 @@ public class TicketPriceSlotFinder {
         System.out.println(findSlot(prices, 300));
     }
 }
+
+/* Complexity:
+- Linear scan: O(n) time, O(1) space
+- Binary search: O(log n) time, O(1) additional space
+*/

@@ -40,3 +40,8 @@ public class MergingTwoTokenQueues {
         System.out.println(Arrays.toString(result));
     }
 }
+
+/* Complexity:
+- Time: O(m + n)
+- Additional space: O(m + n) for the output array
+- It does not sort after joining. */

@@ -32,3 +32,7 @@ public class HotWeatherAlertWindows {
         System.out.println(countAlerts(readings, k, threshold));
     }
 }
+
+/* Complexity:
+- Time: O(n)
+- Additional space: O(1) */
